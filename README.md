@@ -74,3 +74,4 @@ Now in your terminal which is pointing to my-app folder, execute
 ```
 npm run dev
 ```
+

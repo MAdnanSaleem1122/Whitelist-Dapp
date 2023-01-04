@@ -1,4 +1,5 @@
 # Whitelist-Dapp
+![Capture](https://user-images.githubusercontent.com/121422342/210557894-f5287d69-a01e-410c-a18f-6c92f2334cf2.PNG)
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 

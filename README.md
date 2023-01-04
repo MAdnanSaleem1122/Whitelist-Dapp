@@ -35,8 +35,6 @@ We will deploy the contract to the goerli network. Create a new file, or replace
 
 Now create a .env file in the hardhat-tutorial folder and add the following lines. Follow the instructions below.
 
-Go to Quicknode and sign up for an account. If you already have an account, log in. Quicknode is a node provider that lets you connect to various different blockchains. We will be using it to deploy our contract through Hardhat. After creating an account, Create an endpoint on Quicknode, select Ethereum, and then select the Goerli network. Click Continue in the bottom right and then click on Create Endpoint. Copy the link given to you in HTTP Provider and add it to the .env file below for QUICKNODE_HTTP_URL.
-
 To get your private key, you need to export it from Metamask. Open Metamask, click on the three dots, click on Account Details and then Export Private Key. MAKE SURE YOU ARE USING A TEST ACCOUNT THAT DOES NOT HAVE MAINNET FUNDS FOR THIS. Add this Private Key below in your .env file for PRIVATE_KEY variable.
 
 Now we will install dotenv package to be able to import the env file and use it in our config. Open up a terminal pointing at hardhat-tutorial directory and execute this command.
